@@ -1,28 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ember-starter-app implements the ember-starter-kit app in rails with ember-rails gem. It uses the rails application template described in the ember-rails readme. It uses javascript, not coffeescript.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  * ember-starter-kit - https://github.com/mark-greene/ember-starter-kit
+  * ember-rails - https://github.com/emberjs/ember-rails
