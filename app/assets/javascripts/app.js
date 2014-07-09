@@ -8,4 +8,14 @@
 //= require_tree ./templates
 //= require ./router
 //= require_tree ./routes
+//= require ./fixtures
 //= require_self
+
+Ember.Handlebars.registerBoundHelper('date', function(date) {
+  return moment(date).fromNow();
+});
+
+var showdown = new Showdown.converter();
+Ember.Handlebars.registerBoundHelper('markdown', function(input) {
+  return new Ember.Handlebars.SafeString(showdown.makeHtml(input));
+});
