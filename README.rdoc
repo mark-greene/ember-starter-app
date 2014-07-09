@@ -2,5 +2,5 @@
 
 ember-starter-app implements the ember-starter-kit app in rails with ember-rails gem. It uses the rails application template described in the ember-rails readme. It uses javascript, not coffeescript.
 
-  * ember-starter-kit - https://github.com/mark-greene/ember-starter-kit
-  * ember-rails - https://github.com/emberjs/ember-rails
+  - ember-starter-kit - https://github.com/mark-greene/ember-starter-kit
+  - ember-rails - https://github.com/emberjs/ember-rails
